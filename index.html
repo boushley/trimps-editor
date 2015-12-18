@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trimps Save Editor</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <style>
+        textarea {
+            width: 100%;
+            min-height: 3rem;
+        }
+
+        #save-json-interface {
+            min-height: 50rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Trimps Save Editor</h1>
+
+    <div class="row m-t-1">
+        <div class="col-md-12">
+            <label for="save-data-interface">Save Data</label><br>
+            <textarea id="save-data-interface"></textarea>
+        </div>
+    </div>
+
+    <div class="row m-t-0">
+        <div class="col-md-12">
+            <button id="parse-save-data">Import Save Into Editor</button>
+            <button id="export-save-json">Export Save From Editor</button>
+        </div>
+    </div>
+
+
+    <div class="row m-t-1">
+        <div class="col-md-12">
+            <label for="save-json-interface">Save JSON</label><br>
+            <div id="save-json-interface"></div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.2/ace.js"></script>
+<script src="lz-string.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
