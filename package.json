@@ -1,0 +1,22 @@
+{
+  "name": "trimps-editor",
+  "version": "1.0.0",
+  "description": "This is a save editor for the game of [Trimps](http://trimps.github.io/)",
+  "main": "",
+  "scripts": {
+    "build": "node_modules/bookmarklet/bin/bookmarklet bookmarklet-src.js > bookmarklet.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boushley/trimps-editor.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boushley/trimps-editor/issues"
+  },
+  "homepage": "https://github.com/boushley/trimps-editor#readme",
+  "dependencies": {
+    "bookmarklet": "0.0.4"
+  }
+}
